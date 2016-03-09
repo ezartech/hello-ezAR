@@ -1,11 +1,12 @@
 # hello-ezAR
 A simple ezAR&trade; hello world app based on the default Cordova project template.  
-See index.html for the small set of changes required to enable ezAR in your application.
-![logo](screenshot.png) 
+See index.html for the small set of changes required to enable ezAR in your application.  
+![logo](screenshot.png)  
 
 
 ##Getting Started
 While ezAR works with Cordova-based SDKs such as Ionic, only Cordova CLI examples are provided below. 
+This example was built and tested with Cordova 6.0.
 
 Step-1.  Add the ezAR Cordova plugins to the project
 

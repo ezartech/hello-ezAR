@@ -6,21 +6,19 @@ See index.html for the small set of changes required to enable ezAR in your appl
 
 ##Getting Started
 While ezAR works with Cordova-based SDKs such as Ionic, only Cordova CLI examples are provided below. 
-This example was built and tested with Cordova 6.0.
+This example was built and tested with Cordova 6.0 and only uses the VideoOverlay plugin.
 
 Step-1.  Add the ezAR Cordova plugins to the project
 
-        cordova plugin add pathtoezar/com.ezartech.ezar.videooverlay
-        cordova plugin add pathtoezar/com.ezartech.ezar.flashlight
-        cordova plugin add pathtoezar/com.ezartech.ezar.snapshot
-
+     cordova plugin add <pathToEzAR>/plugins/com.ezartech.ezar.videooverlay
+     
 Step-2.  Add your target platform(s) to the project
 
-        cordova platform add ios
+     cordova platform add ios
     
 or
 
-        cordova platform add android
+     cordova platform add android
 
 
 Step-3.  Build and install on device

@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ezartech.demo.helloezar" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" 
-    xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.ezartech.demo.helloezar" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Hello ezAR</name>
     <description>
        Minimalist ezAR hello-world app
@@ -10,9 +9,11 @@
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="com.ezartech.ezar.videooverlay" spec="../../plugins/com.ezartech.ezar.videoOverlay" />
     <access origin="*" />
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    
 </widget>

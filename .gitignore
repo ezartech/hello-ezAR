@@ -11,6 +11,8 @@ $RECYCLE.BIN/
 #cordova project resources
 plugins/
 platforms/
+jsconfig.json
+.vscode/
 
 # OSX
 # =========================

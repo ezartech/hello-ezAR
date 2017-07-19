@@ -19,9 +19,7 @@ or
 
 
 *Note: the project will automatically install the Cordova whitelist and ezAR 
-VideoOverlay plugins. The VideoOverlay plugin is assumed to be at 
-../../plugins/ relative to this project. If your setup is different please 
-modify the plugin element in the config.xml.* 
+VideoOverlay plugins from the npm public repository.*
 
 Step-2.  Build and install on device
 *Note: because of the ezAR camera requirement the app will only perform 
@@ -36,4 +34,4 @@ alternative webviews comment the specific plugin entries in the config.xml file.
 See [ezartech.com](http://ezartech.com) for documentation and support.
 
 
-Copyright (c) 2015-2016, ezAR Technologies
+Copyright (c) 2015-2017, ezAR Technologies
